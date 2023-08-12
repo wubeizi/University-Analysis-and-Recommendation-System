@@ -1,0 +1,60 @@
+/*中间半透明的容器样式*/
+.container {
+    padding: 40px;
+}
+
+/*中间容器中显示内容的部分*/
+.content {
+    padding: 20px;
+}
+
+/*一行行显示个人信息*/
+.info-item {
+    margin: 30px;
+    height: 10%;
+    display: flex;
+    justify-content: space-between; /* 使 label 居左，input 和 img（箭头）按钮靠右 */
+}
+
+/*昵称生日等标签的label样式*/
+.info-item label {
+    align-items: center; /* 在垂直方向上居中对齐 */
+    color: white;
+}
+
+.info-item label.special-label {
+    height: 60%;
+    width: 15%; /* 调整输入框宽度 */
+    padding: 5px; /* 添加一些内边距 */
+    color: gray;
+    font-size: 15px; /* 调整字体大小 */
+    background-color: rgba(255, 255, 255, 0);
+    margin-left: auto; /* 将输入框靠右对齐 */
+    margin-right: 10px;
+    text-align: right; /* 将文字内容靠右对齐 */
+}
+
+
+/*显示右端箭头*/
+.info-item img {
+    height: 60%;
+    width:  10%;
+    align-items: flex-end;
+}
+
+.info-item select,/*点击右端箭头之后显示的输入框或者下拉框*/
+.info-item input {
+    /*height: 60%;*/
+    /*width: 20%;*/
+    /* padding: 5px; */
+    color: gray;
+    /*font-size: 15px;*/
+    background-color: rgba(255, 255, 255, 0);
+    margin-left: auto;
+    /*margin-right: 10px;*/
+}
+
+/*被隐藏的确认和取消按钮*/
+.info-item button {
+    margin-right: 5px; /* 调整按钮之间的间距 */
+}

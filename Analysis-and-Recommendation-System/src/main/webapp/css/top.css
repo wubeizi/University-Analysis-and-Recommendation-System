@@ -1,0 +1,37 @@
+*{           /*清除所有标签的初始内外边距*/
+    padding:0;
+    margin:0;
+}
+
+.nav{
+    top: 0px;
+    height: 110px;
+    background-color: #1e1c2a;
+}
+
+.ul_top{
+    list-style: none;/*去除列表格式，消除小黑点*/
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.top_text1{
+    top: 10px;
+    font-size: 35px;
+    font-family: taiekaishu;
+    color: aliceblue;
+}
+
+@font-face {
+    font-family: 'taiekaishu';
+    src: url(../font/taiekaishu.ttf);
+}
+
+.top_text2{
+    font-size: 20px;
+    color: aliceblue;
+    font-family: taiekaishu;
+    left: 5px;
+    margin-left: 5px;
+}

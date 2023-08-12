@@ -1,0 +1,116 @@
+*{           /*清除所有标签的初始内外边距*/
+    padding:0;
+    margin:0;
+}
+
+.nav{
+    top: 0px;
+    height: 110px;
+    background-color: #1d274b;
+}
+
+.ul_top{
+    list-style: none;/*去除列表格式，消除小黑点*/
+    position: absolute;
+    top: 20px;/*距离顶部70px*/
+    left: 10px;
+}
+
+.top_text1{
+    top: 10px;
+    font-size: 35px;
+    font-family: taiekaishu;
+    color: aliceblue;
+}
+
+@font-face {
+    font-family: 'taiekaishu';
+}
+
+.top_text2{
+    font-size: 15px;
+    color: aliceblue;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+}
+th, td {
+    border: none;
+    padding: 8px;
+}
+/*th {*/
+/*    background-color: rgba(255,255,255,0.3);*/
+/*}*/
+/*td {*/
+/*    background-color: rgba(255,255,255,0.5);*/
+/*}*/
+.school-col {
+    width: 100px;
+}
+.title-col {
+    width: 100px;
+}
+.action-col {
+    width: 100px;
+}
+.content-col {
+    width: calc(100% - 300px);
+}
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 3px 0;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+.edit-button {
+    background-color: green;
+}
+.delete-button {
+    background-color: red;
+}
+/*tr:hover{*/
+/*    background-color: rgba(255, 255, 255, 0.15);*/
+/*}*/
+
+.search-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.searchbtn{
+    border: none;
+    border-radius: 5px;
+    padding: 3px 5px;
+    margin: 3px 0;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.search-input {
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px;
+    color: white;
+}
+
+.search-container {
+    width: 100px;
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,68 @@
+div{
+    display:inline-block
+}
+
+*{		/* CSS Reset */
+    margin : 0;
+    padding : 0;
+}
+
+.main{
+    width: 1000px;
+    height: 600px;
+    /*position: absolute;*/
+    left: 0;
+    top: 0;
+    /*transform: translate(-50%, -50%);*/
+}
+
+.left{
+    height: 100%;
+    width: 320px;
+    position: absolute;
+    background-color: rgba(159,215,244,0.8);
+    left: 0;
+    top: 0;
+    padding: 5px;
+}
+
+.left1{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10%;
+    margin: auto;
+}
+
+.left2{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10%;
+    margin: auto;
+}
+
+.text{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 5%;
+    margin: auto;
+    font-size: 30px;
+    font-family: taiekaishu;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'taiekaishu';
+    src: url(../font/taiekaishu.ttf);
+}
+
+@font-face {
+    font-family: 'jixiangsongti';
+    src: url(../font/jixiangsongti.ttf);
+}

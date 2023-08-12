@@ -1,0 +1,158 @@
+:root {
+    font-family: "Courier New", Courier, monospace;
+}
+* {
+    box-sizing: border-box;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+
+.left-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 175px;
+    height: 100%;
+    background-color: rgba(170,170,170,0.2);
+
+    text-align: center;
+    font-size: 15px;
+    transition: left 0.2s linear 0.1s;
+    color: rgba(255,255,255,0.3);
+}
+
+/** 导航栏 */
+.left-menu > div:nth-child(1) {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    border: 0px;
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+/** 全部一级菜单 */
+.menu-item {
+    padding: 10px;
+    width: 100%;
+    font-weight: 700;
+}
+
+.menu-item:hover {
+    cursor: pointer;
+    color: rgb(255,255,255);
+    /*background-color: rgba(224, 224, 224,0.2);*/
+}
+
+.menu-no-child{
+    text-align: left;
+    color: rgba(255,255,255,0.3);
+}
+
+/** 可打开的菜单 */
+.menu-item-hasChild {
+    position: relative;
+    text-align: left;
+}
+
+.menu-item-hasChild > p {
+    margin: 0;
+}
+
+.icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    font-size: 1px;
+    font-weight: 100;
+    transition: transform 0.3s linear;
+    transform: translate(0, -50%) rotate(90deg) scaleY(1.8);
+    opacity: 0.5;
+    z-index: 2;
+}
+
+/** 可打开的菜单被点击后icon的样式 */
+.reverse-icon {
+    transform: translate(0, -50%) rotate(270deg) scaleY(1.8);
+}
+
+/** 可打开的菜单的直属列表 */
+.menu-first-items {
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+    /*overflow: hidden;*/
+    transition: height 0.3s ease-out 0.1s;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.ul-active {
+    height: 140px;
+}
+
+.feedback ul-active {
+    height: 70px;
+}
+
+li {
+    list-style: none;
+}
+.li-text {
+    font-size: 1.1rem;
+    line-height: 35px;
+    height: 35px;
+    width: 70%;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+.li-underline {
+    border-bottom: 0.5px solid rgba(104, 104, 104, 0.2);
+}
+
+.li-text:hover {
+    background-color: rgba(224, 224, 224, 0.05);
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.bg-color{
+    background-color: #000000;
+}
+
+.logout{
+    color: #FFFFFF;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.image{
+    vertical-align: center;
+    top: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+
+
+a {
+    text-decoration: none; /* 清除下划线 */
+    color: rgba(255,255,255,0.5); /* 设置字体颜色为白色 */
+}
+
+a:hover{
+    text-decoration: none; /* 清除下划线 */
+    color: rgba(255,255,255,0.6); /* 设置字体颜色为白色 */
+}

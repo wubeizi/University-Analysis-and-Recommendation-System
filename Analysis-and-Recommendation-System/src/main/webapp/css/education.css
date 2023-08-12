@@ -1,0 +1,57 @@
+.choose{
+    width: 60%;
+    height: 20%;
+    background-color: rgba(52,124,175,0.8);
+    text-align: center;
+    line-height: 20px;
+    margin: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    position: relative;
+    padding: 5px;
+}
+
+.top{
+    width: 100%;
+}
+
+.form-inline{
+    justify-content: space-between;/*重要*/
+    display: flex;
+}
+
+.form-group{
+    display: inline-block;
+}
+
+.form-group2{
+    display: inline-block;
+    position: relative;
+}
+
+.form-control .btn2{
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.btn1{
+    right: 5px;
+    bottom: 5px;
+    position: absolute;
+}
+
+.table{
+    left: 0;
+    right: 0;
+    margin: 30px auto auto;
+    background-color: #347CAF;
+    width: 61%;
+    padding: 5px;
+    border: 1px solid darkblue;
+}
+
+.btn3{
+    color: black;
+}

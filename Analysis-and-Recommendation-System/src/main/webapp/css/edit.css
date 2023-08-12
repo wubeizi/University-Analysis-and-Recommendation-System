@@ -1,0 +1,33 @@
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 800px;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th:first-child {
+    width: 100px;
+}
+input[type="text"], textarea {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.center-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

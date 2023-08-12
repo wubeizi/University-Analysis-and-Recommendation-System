@@ -1,0 +1,27 @@
+body {
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    /*background-color: rgba(255, 255, 255, 0.5);*/
+}
+
+.tab {
+    flex-grow: 1;
+    text-align: center;
+    color: rgba(255,255,255,0.5);
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab:hover {
+    background-color: rgba(85, 151, 255, 0.46);
+}
+
+.active{
+    background-color: rgba(85, 151, 255, 0.46);
+}

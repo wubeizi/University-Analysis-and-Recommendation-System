@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    width: 30px;
+    height: 32.6vh;
+}
+.flex3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tabs{
+    border-radius:5px 0px 0px 5px;
+    background-color: rgba(255,255,255,0.1);
+    color: #676978;
+    font-weight: bold;
+    font-size: small;
+}
+.tabs:hover{
+    color: white;
+}

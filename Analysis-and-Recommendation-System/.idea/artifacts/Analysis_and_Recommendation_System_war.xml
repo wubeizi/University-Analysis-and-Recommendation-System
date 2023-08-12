@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Analysis-and-Recommendation-System:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Analysis-and-Recommendation-System</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Analysis-and-Recommendation-System-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Analysis-and-Recommendation-System:war exploded" />
+    </root>
+  </artifact>
+</component>
