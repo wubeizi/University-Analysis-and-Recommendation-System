@@ -5,7 +5,7 @@
 ## 功能模块
 本项目主要定义了智慧高校大数据平台的需求,由五大模块组成：高校数据分析、高校推荐系统、志愿填报推荐系统、用户设置、管理员模块。<br/>
 项目结构图：
-<img src="../University Analysis and Recommendation System/assets/结构图.png">
+<img src="/assets/结构图.png">
 
 ## 运行与部署
 ### 系统运行环境
